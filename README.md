@@ -14,7 +14,7 @@ Saat ini, aplikasi memiliki **4 fitur utama** yang saling terintegrasi:
 1. **📚 Modul Belajar (Daftar Isyarat)**
    Menampilkan daftar lengkap huruf dan kata bahasa isyarat dalam bentuk kartu visual yang menarik (*CardView*) menggunakan komponen `RecyclerView` yang efisien.
    
-2. **🔊 Detail Isyarat & Text-to-Speech (TTS)**
+2. **🔊 Detail Isyarat**
    Ketika salah satu isyarat ditekan, halaman detail akan terbuka menampilkan gambar berukuran besar dan petunjuk gerakan yang jelas. Dilengkapi dengan tombol pengucapan suara bertenaga AI (*Text-to-Speech*) dalam Bahasa Indonesia.
 
 3. **⭐ Kata Favorit Pengguna**
@@ -22,6 +22,9 @@ Saat ini, aplikasi memiliki **4 fitur utama** yang saling terintegrasi:
 
 4. **🎮 Kuis Tebak Isyarat & Skor Tertinggi**
    Menguji pemahaman dengan menampilkan isyarat acak tanpa teks bantuan. Setiap jawaban benar menghasilkan +10 poin. Jika skor akhir kuis berhasil melampaui rekor sebelumnya, sistem akan memperbarui rekor *High Score* di Menu Utama secara *real-time*.
+
+5. **⏱️ Kuis Ketangkasan dengan Timer**
+   Menguji pemahaman dengan menampilkan isyarat acak tanpa teks bantuan. Setiap soal dilengkapi dengan **hitungan mundur 15 detik** menggunakan `CountDownTimer`. Teks waktu akan berubah menjadi merah saat kritis (< 5 detik), dan jika waktu habis soal otomatis dianggap salah untuk melatih ketangkasan anak.
 
 ---
 
