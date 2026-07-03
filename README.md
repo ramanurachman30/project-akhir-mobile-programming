@@ -9,7 +9,7 @@ Aplikasi ini menggunakan arsitektur data lokal (JSON & SharedPreferences) yang r
 
 ## 🚀 Fitur Utama Uygulama
 
-Saat ini, aplikasi memiliki **4 fitur utama** yang saling terintegrasi:
+Saat ini, aplikasi memiliki **5 fitur utama** yang saling terintegrasi:
 
 1. **📚 Modul Belajar (Daftar Isyarat)**
    Menampilkan daftar lengkap huruf dan kata bahasa isyarat dalam bentuk kartu visual yang menarik (*CardView*) menggunakan komponen `RecyclerView` yang efisien.
